@@ -8,18 +8,12 @@ actions:
     lock: false
     close: false
     lockReason: ""
-  -"SUPPORT: Check Version":
-    # Unlock the thread
-    unlock: true
   "SUPPORT: Can't Reproduce":
     comment: >
       I have not managed to reproduce this issue.
     lock: false
     close: false
     lockReason: ""
-  -"SUPPORT: Can't Reproduce":
-    # Unlock the thread
-    unlock: true
 
 # Optionally, specify configuration settings just for issues
 issues:
