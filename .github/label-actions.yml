@@ -4,33 +4,16 @@
 actions:
   "SUPPORT: Check Version":
     comment: >
-      Check the latest version first
+      Check the latest version first.
     lock: false
     close: false
-    lockReason: ""
+    lockReason: false
   "SUPPORT: Can't Reproduce":
     comment: >
       I have not managed to reproduce this issue.
     lock: false
     close: false
-    lockReason: ""
-
-# Optionally, specify configuration settings just for issues
-issues:
-  actions:
-    feature:
-      comment: >
-        :wave: @{issue-author}, please use our idea board to request new features.
-      close: true
-    -wontfix:
-      open: true
-
-# Optionally, specify configuration settings just for pull requests
-pulls:
-  actions:
-    pizzazz:
-      comment: >
-        ![](https://i.imgur.com/WuduJNk.jpg)
+    lockReason: false
 
 # Limit to only `issues` or `pulls`
 only: issues
