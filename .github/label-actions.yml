@@ -7,14 +7,15 @@ test:
     If you think that this issue is a bug, feel free to [open a new issue](https://github.com/DevExpress/testcafe/issues/new?template=bug-report.md), but please make sure to follow the issue template. Thank you in advance.
   close: true
 
-'TYPE:: Question':
+? 'TYPE: Question'
+:
   # Post a comment
   comment: >
     Thank you for your inquiry. This issue looks like a question that would be best [asked on StackOverflow](https://stackoverflow.com/questions/ask?tags=testcafe) - an amazing platform for users to ask and answer questions. We try to keep the GitHub issues tracker for bugs and feature requests only (see [Contributing](https://github.com/DevExpress/testcafe#contributing)).
     If you think that this issue is a bug, feel free to [open a new issue](https://github.com/DevExpress/testcafe/issues/new?template=bug-report.md), but please make sure to follow the issue template. Thank you in advance.
   close: true
 
-? State: Non-latest version
+? STATE: Non-latest version
 :
   # Post a comment
   comment: >
@@ -22,14 +23,14 @@ test:
   label: 'STATE: Need clarification'
   unlabel: 'State: Non-latest version'
 
-'State:Need simple sample':
+'STATE:Need simple sample':
   # Post a comment
   comment: >
     Thank you for submitting this issue. We would love to assist you and diagnose it. However, we need a simple sample that we can easily run on our side in order to replicate the issue and research its cause. Without a sample, we are not able to figure out what's going on and why this issue occurs. We look forward to your response.
   label: 'STATE: Need clarification'
   unlabel: 'State: Need simple sample'
 
-'State: Need access confirmation':
+'STATE: Need access confirmation':
   # Post a comment
   comment: >
     Thank you for submitting this issue. We would love to assist you and diagnose this issue. However, since your website sits behind a proxy and/or requires authentication, I will not be able to access it. Our policy prevents us from accessing a customer's internal resources without prior written approval from the entity that owns the server/web resource.
