@@ -2,7 +2,7 @@
 
 test:
   # Post a comment
-  comment: >
+  comment: |
     Thank you for your inquiry. This issue looks like a question that would be best [asked on StackOverflow](https://stackoverflow.com/questions/ask?tags=testcafe) - an amazing platform for users to ask and answer questions. We try to keep the GitHub issues tracker for bugs and feature requests only (see [Contributing](https://github.com/DevExpress/testcafe#contributing)).
     
     If you think that this issue is a bug, feel free to [open a new issue](https://github.com/DevExpress/testcafe/issues/new?template=bug-report.md), but please make sure to follow the issue template. Thank you in advance.
